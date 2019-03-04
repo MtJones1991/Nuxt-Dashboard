@@ -1,7 +1,7 @@
 <template>
 <v-footer dark>
     <v-layout class="navLayout m-0 p-0" row wrap>
-        <v-card flat tile color="indigo darken-4" class="accent-3 white--text text-xs-center navCard">
+        <v-card flat tile color="blue-grey darken-3" class="accent-3 white--text text-xs-center navCard">
             <v-card-text>
                 <v-btn v-for="(icon, index) in icons" :key="index" class="mx-3 white--text" icon>
                     <router-link class="links" :to="`#${icon.link}`" replace>

@@ -4,7 +4,7 @@
     <v-toolbar flat fixed>
       <v-toolbar-side-icon></v-toolbar-side-icon>
 
-      <v-toolbar-title>Title</v-toolbar-title>
+      <v-toolbar-title>Carr Management</v-toolbar-title>
 
       <v-spacer></v-spacer>
 

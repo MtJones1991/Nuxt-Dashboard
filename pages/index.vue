@@ -1,13 +1,13 @@
 <template>
 <div class="mb-5">
-    <v-parallax height="100%" class="paraImg mb-5" src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80">
+    <v-parallax height="100%" class="paraImg mb-5" src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
         <v-layout align-end justify-start column fill-height>
             <img class=" mr-5 imgFile" src="~/assets/rocket.png" data-aos="fade" data-aos-duration="2000" data-aos-mirror="true" wrap data-aos-easing="ease-in-out">
         </v-layout>
 
             <v-layout align-center justify-start column fill-height>
                 <h1 data-aos="fade" data-aos-duration="2000" data-aos-mirror="true" wrap data-aos-easing="ease-in-out" class="mb-1 text-xs-center siteHeader">How can we help you and your business</h1>
-                <p data-aos="fade" data-aos-duration="2000" data-aos-mirror="true" wrap data-aos-easing="ease-in-out" class=" xs-4mb-1 text-xs-center">Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
+                <p data-aos="fade" data-aos-duration="2000" data-aos-mirror="true" wrap data-aos-easing="ease-in-out" class="pageDesc xs-4git mb-1 text-xs-center">Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
                     Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
                     Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum t</p>
             </v-layout>
@@ -167,5 +167,9 @@ element.style {
     height: 145px;
     width: 145px;
     border-radius: 100%
+}
+
+.pageDesc {
+    width: 75%;
 }
 </style>
