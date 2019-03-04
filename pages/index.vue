@@ -1,11 +1,10 @@
 <template>
 <div class="mb-5">
-
-    <v-parallax class="paraImg mb-5" src="https://images.unsplash.com/photo-1531466662608-2c0ef41335f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=803&q=80">
+    <!-- <v-parallax class="paraImg mb-5" src="https://images.unsplash.com/photo-1531466662608-2c0ef41335f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=803&q=80">
         <v-layout align-center justify-center column fill-height>
             <Logo />
         </v-layout>
-    </v-parallax>
+    </v-parallax> -->
 
     <v-layout align-center justify-center column fill-height wrap>
         <h1 data-aos="fade" data-aos-duration="2000" data-aos-mirror="true" wrap data-aos-easing="ease-in-out" class="mt-5 titleTop text-xs-center">Nuxt and Veutify</h1>
@@ -56,74 +55,7 @@
 
     </v-layout>
 
-    <section>
-        <v-layout column wrap class="my-5 pt-5" align-center>
-            <v-flex xs12 sm4 class="my-3">
-                <div class="mt-4 mb-4 text-xs-center" data-aos="fade-out-down" data-aos-duration="2100" data-aos-mirror="true" data-aos-anchor-placement="top-center">
-                    <h2 class="headline">The best way to start developing</h2>
-                    <span class="subheading">
-                Cras facilisis mi vitae nunc 
-              </span>
-                </div>
-
-            </v-flex>
-            <v-flex xs12>
-                <v-container grid-list-xl>
-                    <v-layout row wrap align-center>
-                        <v-flex xs12 md4>
-
-                            <v-card class="elevation-0 transparent" data-aos="zoom-in-down" data-aos-duration="2900" data-aos-mirror="true" data-aos-anchor-placement="top-center">
-                                <v-card-text class="text-xs-center">
-                                    <v-icon x-large class="orange--text text--lighten-2">color_lens</v-icon>
-                                </v-card-text>
-                                <v-card-title primary-title class="layout justify-center">
-                                    <div class="headline text-xs-center">Material Design</div>
-                                </v-card-title>
-                                <v-card-text>
-                                    Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
-                                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                                    Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
-                                </v-card-text>
-                            </v-card>
-
-                        </v-flex>
-                        <v-flex xs12 md4>
-
-                            <v-card class="elevation-0 transparent" data-aos="zoom-out-right" data-aos-duration="2800" data-aos-mirror="true" data-aos-anchor-placement="top-center">
-                                <v-card-text class="text-xs-center">
-                                    <v-icon x-large class="orange--text text--lighten-2">flash_on</v-icon>
-                                </v-card-text>
-                                <v-card-title primary-title class="layout justify-center">
-                                    <div class="headline">Fast development</div>
-                                </v-card-title>
-                                <v-card-text>
-                                    Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
-                                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                                    Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
-                                </v-card-text>
-                            </v-card>
-
-                        </v-flex>
-                        <v-flex xs12 md4>
-                            <v-card class="elevation-0 transparent" data-aos="zoom-in-left" data-aos-duration="2700" data-aos-mirror="true" data-aos-anchor-placement="top-center">
-                                <v-card-text class="text-xs-center">
-                                    <v-icon x-large class="orange--text text--lighten-2">build</v-icon>
-                                </v-card-text>
-                                <v-card-title primary-title class="layout justify-center">
-                                    <div class="headline text-xs-center">Completely Open Sourced</div>
-                                </v-card-title>
-                                <v-card-text>
-                                    Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
-                                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                                    Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
-                                </v-card-text>
-                            </v-card>
-                        </v-flex>
-                    </v-layout>
-                </v-container>
-            </v-flex>
-        </v-layout>
-    </section>
+    <AboutCards />
 
     <v-parallax class="paraImg elevation-21 mb-5 mt-5" src="https://picsum.photos/1080/720?image=171">
         <v-layout align-center justify-center column fill-height class="pb-5 mb-5">
@@ -142,11 +74,13 @@
 import Logo from '~/components/Logo.vue'
 import VuetifyLogo from '~/components/VuetifyLogo.vue'
 import BottomNav from '~/components/BottomNav.vue'
+import AboutCards from '~/components/AboutCards.vue'
 export default {
     components: {
         Logo,
         VuetifyLogo,
-        BottomNav
+        BottomNav,
+        AboutCards
     },
     data: () => ({
         show: false

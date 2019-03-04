@@ -1,11 +1,7 @@
 <template>
 <v-app>
-  <v-card
-    color="grey lighten-4"
-    flat
-    tile
-  >
-    <v-toolbar dense>
+
+    <v-toolbar flat fixed>
       <v-toolbar-side-icon></v-toolbar-side-icon>
 
       <v-toolbar-title>Title</v-toolbar-title>
@@ -24,7 +20,6 @@
         <v-icon>more_vert</v-icon>
       </v-btn>
     </v-toolbar>
-  </v-card>
     <div @click="tune">
         <nuxt />
     </div>
