@@ -20,9 +20,11 @@
         <v-icon>more_vert</v-icon>
       </v-btn>
     </v-toolbar>
+
     <div @click="tune">
         <nuxt />
     </div>
+
 </v-app>
 </template>
 
@@ -75,7 +77,8 @@ export default {
                 easing: 'cubic.out'
             },
             circle1: undefined,
-            circle2: undefined
+            circle2: undefined,
+            circle3: undefined
 
         }
     },
@@ -88,13 +91,24 @@ export default {
         this.circle2 = new mojs.Shape({
             ...this.OPTS,
             radius: {
-                0: 15
+                1: 15
             },
             strokeWidth: {
                 30: 0
             },
             stroke: 'orange',
             delay: 'rand(75, 150)'
+        })
+
+         this.circle3 = new mojs.Shape({
+            ...this.OPTS,
+             radius: {
+                0: 30
+            },
+            strokeWidth: {
+                60: 0
+            },
+            stroke: '#E1BEE7',
         })
     },
 
@@ -108,6 +122,13 @@ export default {
                 .replay();
 
             this.circle2
+                .tune({
+                    x: e.pageX,
+                    y: e.pageY
+                })
+                .replay();
+
+              this.circle3
                 .tune({
                     x: e.pageX,
                     y: e.pageY

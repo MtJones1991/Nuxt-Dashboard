@@ -1,10 +1,10 @@
 <template>
 <div class="mb-5">
-    <!-- <v-parallax class="paraImg mb-5" src="https://images.unsplash.com/photo-1531466662608-2c0ef41335f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=803&q=80">
-        <v-layout align-center justify-center column fill-height>
-            <Logo />
+    <v-parallax  height="100%" class="paraImg mb-5" src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80">
+        <v-layout align-end justify-start column fill-height>
+            <img class=" mr-5 imgFile" src="~/assets/logo.jpg" data-aos="fade" data-aos-duration="2000" data-aos-mirror="true" wrap data-aos-easing="ease-in-out">
         </v-layout>
-    </v-parallax> -->
+    </v-parallax> 
 
     <v-layout align-center justify-center column fill-height wrap>
         <h1 data-aos="fade" data-aos-duration="2000" data-aos-mirror="true" wrap data-aos-easing="ease-in-out" class="mt-5 titleTop text-xs-center">Nuxt and Veutify</h1>
@@ -139,4 +139,11 @@ element.style {
     padding-bottom: 250px;
     margin-bottom: 205px;
 }
+
+.imgFile {
+    margin-top: 130px;
+    height: 145px;
+    width: 145px;
+    border-radius: 100%
+} 
 </style>
