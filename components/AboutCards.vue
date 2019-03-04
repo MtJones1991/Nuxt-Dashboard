@@ -3,7 +3,7 @@
         <v-layout column wrap class="my-5 pt-5" align-center>
             <v-flex xs12 sm4 class="my-3">
                 <div class="mt-4 mb-4 text-xs-center" data-aos="fade-out-down" data-aos-duration="2100" data-aos-mirror="true" data-aos-anchor-placement="top-center">
-                    <h2 class="headline">The best way to start developing</h2>
+                    <h2 class="headline">Where all knowledge is common knowledge</h2>
                     <span class="subheading">
                 Cras facilisis mi vitae nunc 
               </span>
@@ -20,7 +20,7 @@
                                     <v-icon x-large class="orange--text text--lighten-2">color_lens</v-icon>
                                 </v-card-text>
                                 <v-card-title primary-title class="layout justify-center">
-                                    <div class="headline text-xs-center">Material Design</div>
+                                    <div class="headline text-xs-center">InfoSec</div>
                                 </v-card-title>
                                 <v-card-text>
                                     Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
@@ -53,7 +53,7 @@
                                     <v-icon x-large class="orange--text text--lighten-2">build</v-icon>
                                 </v-card-text>
                                 <v-card-title primary-title class="layout justify-center">
-                                    <div class="headline text-xs-center">Completely Open Sourced</div>
+                                    <div class="headline text-xs-center">Web designgi</div>
                                 </v-card-title>
                                 <v-card-text>
                                     Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
