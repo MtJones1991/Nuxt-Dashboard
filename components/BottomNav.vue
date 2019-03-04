@@ -1,7 +1,7 @@
 <template>
 <v-footer dark>
     <v-layout class="navLayout m-0 p-0" row wrap>
-        <v-card flat tile class="orange accent-3 white--text text-xs-center navCard">
+        <v-card flat tile color="indigo darken-4" class="accent-3 white--text text-xs-center navCard">
             <v-card-text>
                 <v-btn v-for="(icon, index) in icons" :key="index" class="mx-3 white--text" icon>
                     <router-link class="links" :to="`#${icon.link}`" replace>
@@ -13,8 +13,7 @@
             </v-card-text>
 
             <v-card-text class="white--text pt-0 text">
-                This website has been designed using Nuxt.js and Vuetify. All transition animations are handled by the "Animate on scroll library" which has been integrated into this application. Above you will find a link to my social media accounts, so please, feel free to contact me if you have any questions. I look forward to heaing from you.
-            </v-card-text>
+sit amet, id delicata assueverit mei, vel ea sint veniam. An pro eripuit eligendi cotidieque, virtute maluisset cu duo. Nostro fabulas eleifend ei eos, et ius natum propriae iudica            </v-card-text>
 
             <v-divider></v-divider>
 

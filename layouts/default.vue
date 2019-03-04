@@ -85,7 +85,7 @@ export default {
     mounted() {
         this.circle1 = new mojs.Shape({
             ...this.OPTS,
-            stroke: '#B71C1C',
+            stroke: '#37474F',
         })
 
         this.circle2 = new mojs.Shape({
@@ -96,19 +96,19 @@ export default {
             strokeWidth: {
                 30: 0
             },
-            stroke: 'orange',
+            stroke: '#00796B',
             delay: 'rand(75, 150)'
         })
 
          this.circle3 = new mojs.Shape({
             ...this.OPTS,
              radius: {
-                0: 30
+                0: 55
             },
             strokeWidth: {
-                60: 0
+                25: 0
             },
-            stroke: '#E1BEE7',
+            stroke: '#9FA8DA',
         })
     },
 
