@@ -1,7 +1,7 @@
 <template>
-<div>
+<div class="mb-5">
 
-    <v-parallax class="paraImg" src="https://images.unsplash.com/photo-1548623843-0c9a5b8239cb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60">
+    <v-parallax class="paraImg mb-5" src="https://images.unsplash.com/photo-1531466662608-2c0ef41335f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=803&q=80">
         <v-layout align-center justify-center column fill-height>
             <Logo />
         </v-layout>

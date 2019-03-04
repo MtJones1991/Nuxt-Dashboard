@@ -11,7 +11,7 @@ import { setContext, getLocation, getRouteData } from './utils'
 
 
 /* Plugins */
-import nuxt_plugin_axios_c7e27f26 from 'nuxt_plugin_axios_c7e27f26' // Source: ./axios.js
+import nuxt_plugin_axios_5d165f85 from 'nuxt_plugin_axios_5d165f85' // Source: ./axios.js
 import nuxt_plugin_vuetify_e5914fcc from 'nuxt_plugin_vuetify_e5914fcc' // Source: ..\\plugins\\vuetify
 import nuxt_plugin_aos_2279b4c6 from 'nuxt_plugin_aos_2279b4c6' // Source: ..\\plugins\\aos.js
 import nuxt_plugin_mo_22cd13a1 from 'nuxt_plugin_mo_22cd13a1' // Source: ..\\plugins\\mo.js
@@ -136,7 +136,7 @@ async function createApp (ssrContext) {
 
   // Plugin execution
   
-  if (typeof nuxt_plugin_axios_c7e27f26 === 'function') await nuxt_plugin_axios_c7e27f26(app.context, inject)
+  if (typeof nuxt_plugin_axios_5d165f85 === 'function') await nuxt_plugin_axios_5d165f85(app.context, inject)
   if (typeof nuxt_plugin_vuetify_e5914fcc === 'function') await nuxt_plugin_vuetify_e5914fcc(app.context, inject)
   if (typeof nuxt_plugin_aos_2279b4c6 === 'function') await nuxt_plugin_aos_2279b4c6(app.context, inject)
   if (typeof nuxt_plugin_mo_22cd13a1 === 'function') await nuxt_plugin_mo_22cd13a1(app.context, inject)

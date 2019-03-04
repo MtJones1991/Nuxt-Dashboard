@@ -1,9 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-const _1e17284d = () => import('..\\pages\\table.vue' /* webpackChunkName: "pages_table" */).then(m => m.default || m)
-const _950f48ce = () => import('..\\pages\\inspire.vue' /* webpackChunkName: "pages_inspire" */).then(m => m.default || m)
-const _647bf351 = () => import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */).then(m => m.default || m)
+const _1a1c3a5b = () => import('..\\pages\\inspire.vue' /* webpackChunkName: "pages_inspire" */).then(m => m.default || m)
+const _daa6cada = () => import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */).then(m => m.default || m)
 
 Vue.use(Router)
 
@@ -65,18 +64,13 @@ export function createRouter () {
     scrollBehavior,
     routes: [
 		{
-			path: "/table",
-			component: _1e17284d,
-			name: "table"
-		},
-		{
 			path: "/inspire",
-			component: _950f48ce,
+			component: _1a1c3a5b,
 			name: "inspire"
 		},
 		{
 			path: "/",
-			component: _647bf351,
+			component: _daa6cada,
 			name: "index"
 		}
     ],
